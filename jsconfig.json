@@ -40,6 +40,9 @@
       "@configs/*": [
         "./src/configs/*"
       ],
+      "@api/*": [
+        "./src/api/*"
+      ],
       "@views/*": [
         "./src/views/*"
       ]

@@ -17,9 +17,9 @@
  */
 const themeConfig = {
   templateName: 'Materialize',
-  homePageUrl: '/dashboards/crm',
+  homePageUrl: '/home',
   settingsCookieName: 'materialize-mui-next-demo-1',
-  mode: 'system', // 'system', 'light', 'dark'
+  mode: 'light', // 'system', 'light', 'dark'
   skin: 'default', // 'default', 'bordered'
   semiDark: false, // true, false
   layout: 'vertical', // 'vertical', 'collapsed', 'horizontal'
@@ -38,8 +38,7 @@ const themeConfig = {
     contentWidth: 'compact', // 'compact', 'wide'
     detached: true //! true, false (This will not work in the Horizontal Layout)
   },
-  disableRipple: false, // true, false
-  toastPosition: 'top-right' // 'top-right', 'top-center', 'top-left', 'bottom-right', 'bottom-center', 'bottom-left'
+  disableRipple: false // true, false
 }
 
 export default themeConfig

@@ -156,7 +156,9 @@ const colorSchemes = skin => {
           inputBorder: `rgb(var(--mui-mainColorChannels-light) / 0.22)`,
           tableHeaderBg: '#F5F5F7',
           tooltipText: '#FFFFFF',
-          trackBg: '#F5F5F8'
+          trackBg: '#F5F5F8',
+          testCardColors1: '#9fa3ff',
+          testCardColors2: '#ff7c7a'
         }
       }
     },
@@ -316,7 +318,9 @@ const colorSchemes = skin => {
           inputBorder: `rgb(var(--mui-mainColorChannels-dark) / 0.22)`,
           tableHeaderBg: '#3A3E5B',
           tooltipText: '#30334E',
-          trackBg: '#3C3F59'
+          trackBg: '#3C3F59',
+          testCardColors1: '#9fa3ff',
+          testCardColors2: '#ff7c7a'
         }
       }
     }

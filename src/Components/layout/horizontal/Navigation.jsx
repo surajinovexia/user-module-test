@@ -31,7 +31,7 @@ const StyledDiv = styled.div`
   `}
 `
 
-const Navigation = ({ dictionary }) => {
+const Navigation = () => {
   // Hooks
   const { settings } = useSettings()
   const { isBreakpointReached } = useHorizontalNav()
@@ -52,7 +52,7 @@ const Navigation = ({ dictionary }) => {
           className: classnames(horizontalLayoutClasses.navigationContentWrapper, 'flex items-center is-full plb-2')
         })}
       >
-        <HorizontalMenu dictionary={dictionary} />
+        <HorizontalMenu />
       </StyledDiv>
     </div>
   )
