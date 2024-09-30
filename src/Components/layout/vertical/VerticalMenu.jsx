@@ -21,8 +21,6 @@ import StyledVerticalNavExpandIcon from '@menu/styles/vertical/StyledVerticalNav
 // Style Imports
 import menuItemStyles from '@core/styles/vertical/menuItemStyles'
 import menuSectionStyles from '@core/styles/vertical/menuSectionStyles'
-import { TestRouting } from '@/app/[lang]/(pages)/test/routing'
-import { UserRouting } from '@/app/[lang]/(pages)/user/routing'
 
 const RenderExpandIcon = ({ open, transitionDuration }) => (
   <StyledVerticalNavExpandIcon open={open} transitionDuration={transitionDuration}>
@@ -64,7 +62,7 @@ const VerticalMenu = ({ dictionary, scrollMenu }) => {
         renderExpandedMenuItemIcon={{ icon: <i className='ri-circle-fill' /> }}
         menuSectionStyles={menuSectionStyles(verticalNavOptions, theme)}
       >
-        {/* <SubMenu
+        <SubMenu
           label={dictionary['navigation'].dashboards}
           icon={<i className='ri-home-smile-line' />}
           suffix={<Chip label='5' size='small' color='error' />}
@@ -169,14 +167,12 @@ const VerticalMenu = ({ dictionary, scrollMenu }) => {
               {dictionary['navigation'].edit}
             </MenuItem>
             <MenuItem href={`/${locale}/apps/invoice/add`}>{dictionary['navigation'].add}</MenuItem>
-          </SubMenu> */}
-        <TestRouting dictionary={dictionary} locale={locale} />
-        <UserRouting dictionary={dictionary} locale={locale} />
-        {/* <SubMenu label={dictionary['navigation'].user} icon={<i className='ri-user-line' />}>
-          <MenuItem href={`/${locale}/apps/user/list`}>{dictionary['navigation'].list}</MenuItem>
-          <MenuItem href={`/${locale}/apps/user/view`}>{dictionary['navigation'].view}</MenuItem>
-        </SubMenu> */}
-        {/* <SubMenu label={dictionary['navigation'].rolesPermissions} icon={<i className='ri-lock-2-line' />}>
+          </SubMenu>
+          <SubMenu label={dictionary['navigation'].user} icon={<i className='ri-user-line' />}>
+            <MenuItem href={`/${locale}/apps/user/list`}>{dictionary['navigation'].list}</MenuItem>
+            <MenuItem href={`/${locale}/apps/user/view`}>{dictionary['navigation'].view}</MenuItem>
+          </SubMenu>
+          <SubMenu label={dictionary['navigation'].rolesPermissions} icon={<i className='ri-lock-2-line' />}>
             <MenuItem href={`/${locale}/apps/roles`}>{dictionary['navigation'].roles}</MenuItem>
             <MenuItem href={`/${locale}/apps/permissions`}>{dictionary['navigation'].permissions}</MenuItem>
           </SubMenu>
@@ -372,8 +368,8 @@ const VerticalMenu = ({ dictionary, scrollMenu }) => {
               </SubMenu>
             </SubMenu>
             <MenuItem disabled>{dictionary['navigation'].disabledMenu}</MenuItem>
-          </SubMenu> */}
-        {/* </MenuSection> */}
+          </SubMenu>
+        </MenuSection>
       </Menu>
       {/* <Menu
           popoutMenuOffset={{ mainAxis: 17 }}
