@@ -2,15 +2,12 @@
 import Providers from '@components/Providers'
 import BlankLayout from '@layouts/BlankLayout'
 
-// Config Imports
-import { i18n } from '@configs/i18n'
-
 // Util Imports
 import { getSystemMode } from '@core/utils/serverHelpers'
 
-const Layout = ({ children, params }) => {
+const Layout = ({ children }) => {
   // Vars
-  const direction = i18n.langDirection[params.lang]
+  const direction = 'ltr'
   const systemMode = getSystemMode()
 
   return (
