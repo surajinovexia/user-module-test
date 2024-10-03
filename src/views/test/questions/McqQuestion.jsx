@@ -19,7 +19,7 @@ import {
 
 import { Controller } from 'react-hook-form'
 
-import TextEditor from '@/components/Common/TextEditor'
+import TextEditor from '@/Components/Common/TextEditor'
 
 const McqQuestion = ({ mcqFields, setMcqFields, control, error }) => {
   // Function to handle input text change

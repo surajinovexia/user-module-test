@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 import { Card, CardHeader, CardContent, Grid, Radio, TextField, Typography } from '@mui/material'
 
-import TextEditor from '@/components/Common/TextEditor'
+import TextEditor from '@/Components/Common/TextEditor'
 
 const EssaysQuestion = () => {
   return (

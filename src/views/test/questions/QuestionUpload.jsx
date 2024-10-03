@@ -23,8 +23,8 @@ import { Box, Dialog, DialogContent, DialogTitle } from '@mui/material'
 import CustomAvatar from '@core/components/mui/Avatar'
 
 // Styled Component Imports
-import AppReactDropzone from '@/components/globals/AppReactDropzone'
-import Link from '@/components/globals/Link'
+import AppReactDropzone from '@/Components/globals/AppReactDropzone'
+import Link from '@/Components/globals/Link'
 
 // Styled Dropzone Component
 const Dropzone = styled(AppReactDropzone)(({ theme }) => ({

@@ -23,7 +23,7 @@ import ReactQuill from 'react-quill'
 
 import 'react-quill/dist/quill.snow.css'
 
-import TextEditor from '@/components/Common/TextEditor'
+import TextEditor from '@/Components/Common/TextEditor'
 
 // Vars
 const initialData = {

@@ -1,6 +1,6 @@
 import { Box, Card, CardContent, CardHeader, Grid, Typography } from '@mui/material'
 
-import TextEditor from '@/components/Common/TextEditor'
+import TextEditor from '@/Components/Common/TextEditor'
 
 const QuestionFeedback = ({ setFeedback, setAnswerFeedback }) => {
   return (
