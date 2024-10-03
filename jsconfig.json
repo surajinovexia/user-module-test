@@ -31,8 +31,8 @@
       "@menu/*": [
         "./src/@menu/*"
       ],
-      "@assets/*": [
-        "src/assets/*"
+      "@Assets/*": [
+        "src/Assets/*"
       ],
       "@components/*": [
         "src/Components/*"
