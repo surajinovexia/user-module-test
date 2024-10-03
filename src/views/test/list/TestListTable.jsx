@@ -52,7 +52,7 @@ import tableStyles from '@core/styles/table.module.css'
 import AlertDialogBox from '@/Components/Common/AlertDialogBox'
 import DialogBoxComponent from '@/Components/Common/DialogBoxComponent'
 import FilterHeader from '@/Components/globals/FilterHeader'
-import { getInitials } from '@/utils/getInitials'
+import { getInitials } from '@/Utils/getInitials'
 import useDraggableList from '@/Components/globals/useDraggableList'
 
 // import DialogBoxComponent from '@/Components/Common/DialogBoxComponent'

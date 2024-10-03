@@ -32,7 +32,7 @@
         "./src/@menu/*"
       ],
       "@assets/*": [
-        "./src/assets/*"
+        "src/assets/*"
       ],
       "@components/*": [
         "src/Components/*"
